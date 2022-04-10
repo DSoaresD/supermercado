@@ -59,7 +59,7 @@ public class DataBaseConnect {
                 }
                catch(ClassNotFoundException er)
                {
-                  // Não achou o driverr
+                  // Não achou o driver
                   throw new RuntimeException(er);
                }
                catch(SQLException e)
